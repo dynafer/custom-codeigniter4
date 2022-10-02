@@ -26,7 +26,7 @@ class ApiController extends BaseController
     {
         $this->validation->setRules($validations);
 
-        if(in_array($this->method, ['GET', 'POST'])) {
+        if(in_array($this->method, [METHOD_GET, METHOD_POST])) {
             $isValid = $this->validation->run($this->request->getPost());
         } else {
             $isValid = $this->validation->withRequest($this->request)->run();

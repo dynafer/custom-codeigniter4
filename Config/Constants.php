@@ -62,3 +62,8 @@ defined('HTTP_INSUFFICIENT_STORAGE')                    ||  define('HTTP_INSUFFI
 defined('HTTP_LOOP_DETECTED')                           ||  define('HTTP_LOOP_DETECTED', 508);
 defined('HTTP_NOT_EXTENDED')                            ||  define('HTTP_NOT_EXTENDED', 510);
 defined('HTTP_NETWORK_AUTHENTICATION_REQUIRED')         ||  define('HTTP_NETWORK_AUTHENTICATION_REQUIRED', 511);
+
+defined('METHOD_GET')                                   ||  define('METHOD_GET', 'GET');
+defined('METHOD_POST')                                  ||  define('METHOD_POST', 'POST');
+defined('METHOD_PUT')                                   ||  define('METHOD_PUT', 'PUT');
+defined('METHOD_DELETE')                                ||  define('METHOD_DELETE', 'DELETE');
